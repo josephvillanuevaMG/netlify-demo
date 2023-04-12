@@ -22,7 +22,7 @@ const users = () => {
 
   return (
     <div>
-      <h1 style={{ marginBottom: '1rem' }}>Users</h1>
+      <h1 style={{ marginBottom: '1rem' }}>User List</h1>
       <ul style={{ paddingLeft: '1rem' }}>
         {users.map((user) => (
           <li style={{ marginBottom: '.5rem' }} key={user.id}>
